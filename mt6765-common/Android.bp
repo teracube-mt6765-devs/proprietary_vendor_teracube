@@ -41,6 +41,24 @@ dex_import {
 }
 
 dex_import {
+	name: "mediatek-ims-extension-plugin",
+	owner: "teracube",
+	jars: ["proprietary/framework/mediatek-ims-extension-plugin.jar"],
+}
+
+dex_import {
+	name: "mediatek-ims-legacy",
+	owner: "teracube",
+	jars: ["proprietary/framework/mediatek-ims-legacy.jar"],
+}
+
+dex_import {
+	name: "mediatek-ims-wwop-common",
+	owner: "teracube",
+	jars: ["proprietary/framework/mediatek-ims-wwop-common.jar"],
+}
+
+dex_import {
 	name: "mediatek-telecom-common",
 	owner: "teracube",
 	jars: ["proprietary/framework/mediatek-telecom-common.jar"],
@@ -56,6 +74,12 @@ dex_import {
 	name: "mediatek-telephony-common",
 	owner: "teracube",
 	jars: ["proprietary/framework/mediatek-telephony-common.jar"],
+}
+
+dex_import {
+	name: "mediatek-wfo-legacy",
+	owner: "teracube",
+	jars: ["proprietary/framework/mediatek-wfo-legacy.jar"],
 }
 
 dex_import {
