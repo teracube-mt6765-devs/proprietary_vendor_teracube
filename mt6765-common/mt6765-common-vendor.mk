@@ -807,7 +807,6 @@ PRODUCT_COPY_FILES += \
     vendor/teracube/mt6765-common/proprietary/vendor/lib/libwpa_client.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwpa_client.so \
     vendor/teracube/mt6765-common/proprietary/vendor/lib/libwvhidl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwvhidl.so \
     vendor/teracube/mt6765-common/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:$(TARGET_COPY_OUT_VENDOR)/lib/mediadrm/libwvdrmengine.so \
-    vendor/teracube/mt6765-common/proprietary/vendor/lib/nfc_nci.st21nfc.st.so:$(TARGET_COPY_OUT_VENDOR)/lib/nfc_nci.st21nfc.st.so \
     vendor/teracube/mt6765-common/proprietary/vendor/lib/s5k3l6_mipi_raw_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib/s5k3l6_mipi_raw_tuning.so \
     vendor/teracube/mt6765-common/proprietary/vendor/lib/soundfx/libaudiopreprocessing_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libaudiopreprocessing_mtk.so \
     vendor/teracube/mt6765-common/proprietary/vendor/lib/vendor.mediatek.hardware.audio@6.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.audio@6.1.so \
@@ -1145,7 +1144,6 @@ PRODUCT_COPY_FILES += \
     vendor/teracube/mt6765-common/proprietary/vendor/lib64/libwvhidl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwvhidl.so \
     vendor/teracube/mt6765-common/proprietary/vendor/lib64/mediadrm/libwvdrmengine.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mediadrm/libwvdrmengine.so \
     vendor/teracube/mt6765-common/proprietary/vendor/lib64/mtkcam/libmtkcam_streaminfo_plugin-p1stt.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mtkcam/libmtkcam_streaminfo_plugin-p1stt.so \
-    vendor/teracube/mt6765-common/proprietary/vendor/lib64/nfc_nci.st21nfc.st.so:$(TARGET_COPY_OUT_VENDOR)/lib64/nfc_nci.st21nfc.st.so \
     vendor/teracube/mt6765-common/proprietary/vendor/lib64/s5k3l6_mipi_raw_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/s5k3l6_mipi_raw_IdxMgr.so \
     vendor/teracube/mt6765-common/proprietary/vendor/lib64/s5k3l6_mipi_raw_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib64/s5k3l6_mipi_raw_tuning.so \
     vendor/teracube/mt6765-common/proprietary/vendor/lib64/soundfx/libaudiopreprocessing_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libaudiopreprocessing_mtk.so \
