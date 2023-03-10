@@ -7865,7 +7865,18 @@
        type="default,supl,mms"
        network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|19|20"
   />
-
+  
+  <apn carrier="TELUS IMS"
+       cc="302"
+       mnc="220" 
+       apn="ims" 
+       type="ims" 
+       protocol="IPV6"
+       mvno_match_data="5455" 
+       mvno_type="gid" 
+       user_visible="false" 
+  />
+  
   <apn carrier="TELUS ISP"
        mcc="302"
        mnc="220"
@@ -7874,6 +7885,17 @@
        user_visible="false"
   />
 
+  <apn carrier="TELUS IMS"
+       cc="302" 
+       mnc="221" 
+       apn="ims" 
+       type="ims" 
+       protocol="IPV6" 
+       mvno_match_data="5455" 
+       mvno_type="gid" 
+       user_visible="false" 
+  />
+  
   <apn carrier="IMS"
        mcc="302"
        mnc="220"
