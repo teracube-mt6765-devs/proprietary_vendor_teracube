@@ -93,7 +93,6 @@ PRODUCT_COPY_FILES += \
     vendor/teracube/mt6765-common/proprietary/system_ext/lib/vendor.mediatek.hardware.apuware.xrp@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.mediatek.hardware.apuware.xrp@1.0.so \
     vendor/teracube/mt6765-common/proprietary/system_ext/lib/vendor.mediatek.hardware.audio@6.1.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.mediatek.hardware.audio@6.1.so \
     vendor/teracube/mt6765-common/proprietary/system_ext/lib/vendor.mediatek.hardware.bluetooth.audio@2.1.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.mediatek.hardware.bluetooth.audio@2.1.so \
-    vendor/teracube/mt6765-common/proprietary/system_ext/lib/vendor.mediatek.hardware.dfps@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.mediatek.hardware.dfps@1.0.so \
     vendor/teracube/mt6765-common/proprietary/system_ext/lib/vendor.mediatek.hardware.gpu@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.mediatek.hardware.gpu@1.0.so \
     vendor/teracube/mt6765-common/proprietary/system_ext/lib/vendor.mediatek.hardware.mtkpower@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.mediatek.hardware.mtkpower@1.0.so \
     vendor/teracube/mt6765-common/proprietary/system_ext/lib/vendor.mediatek.hardware.mtkpower@1.1.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.mediatek.hardware.mtkpower@1.1.so \
@@ -126,7 +125,6 @@ PRODUCT_COPY_FILES += \
     vendor/teracube/mt6765-common/proprietary/system_ext/lib64/vendor.mediatek.hardware.apuware.xrp@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.mediatek.hardware.apuware.xrp@1.0.so \
     vendor/teracube/mt6765-common/proprietary/system_ext/lib64/vendor.mediatek.hardware.audio@6.1.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.mediatek.hardware.audio@6.1.so \
     vendor/teracube/mt6765-common/proprietary/system_ext/lib64/vendor.mediatek.hardware.bluetooth.audio@2.1.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.mediatek.hardware.bluetooth.audio@2.1.so \
-    vendor/teracube/mt6765-common/proprietary/system_ext/lib64/vendor.mediatek.hardware.dfps@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.mediatek.hardware.dfps@1.0.so \
     vendor/teracube/mt6765-common/proprietary/system_ext/lib64/vendor.mediatek.hardware.gpu@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.mediatek.hardware.gpu@1.0.so \
     vendor/teracube/mt6765-common/proprietary/system_ext/lib64/vendor.mediatek.hardware.lbs@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.mediatek.hardware.lbs@1.0.so \
     vendor/teracube/mt6765-common/proprietary/system_ext/lib64/vendor.mediatek.hardware.log@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.mediatek.hardware.log@1.0.so \
@@ -647,7 +645,7 @@ PRODUCT_COPY_FILES += \
     vendor/teracube/mt6765-common/proprietary/vendor/lib/hw/gps.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/gps.default.so \
     vendor/teracube/mt6765-common/proprietary/vendor/lib/hw/gralloc.rogue.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/gralloc.rogue.so \
     vendor/teracube/mt6765-common/proprietary/vendor/lib/hw/lights.mt6765.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/lights.mt6765.so \
-    vendor/teracube/mt6765-common/proprietary/vendor/lib/hw/memtrack.mt6765.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/memtrack.mt6765.so \
+    vendor/teracube/mt6765-common/proprietary/vendor/lib/hw/memtrack.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/memtrack.default.so \
     vendor/teracube/mt6765-common/proprietary/vendor/lib/hw/power.mt6765.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/power.mt6765.so \
     vendor/teracube/mt6765-common/proprietary/vendor/lib/hw/thermal.mt6765.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/thermal.mt6765.so \
     vendor/teracube/mt6765-common/proprietary/vendor/lib/hw/vendor.mediatek.hardware.bluetooth.audio@2.1-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.mediatek.hardware.bluetooth.audio@2.1-impl.so \
@@ -828,11 +826,19 @@ PRODUCT_COPY_FILES += \
     vendor/teracube/mt6765-common/proprietary/vendor/lib/vendor.mediatek.hardware.nvram@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.nvram@1.1.so \
     vendor/teracube/mt6765-common/proprietary/vendor/lib/vendor.mediatek.hardware.pq@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.pq@2.0.so \
     vendor/teracube/mt6765-common/proprietary/vendor/lib/vendor.mediatek.hardware.pq@2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.pq@2.1.so \
+    vendor/teracube/mt6765-common/proprietary/vendor/lib/vendor.mediatek.hardware.pq@2.10.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.pq@2.10.so \
+    vendor/teracube/mt6765-common/proprietary/vendor/lib/vendor.mediatek.hardware.pq@2.11.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.pq@2.11.so \
+    vendor/teracube/mt6765-common/proprietary/vendor/lib/vendor.mediatek.hardware.pq@2.12.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.pq@2.12.so \
+    vendor/teracube/mt6765-common/proprietary/vendor/lib/vendor.mediatek.hardware.pq@2.13.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.pq@2.13.so \
+    vendor/teracube/mt6765-common/proprietary/vendor/lib/vendor.mediatek.hardware.pq@2.14.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.pq@2.14.so \
     vendor/teracube/mt6765-common/proprietary/vendor/lib/vendor.mediatek.hardware.pq@2.2.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.pq@2.2.so \
     vendor/teracube/mt6765-common/proprietary/vendor/lib/vendor.mediatek.hardware.pq@2.3.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.pq@2.3.so \
     vendor/teracube/mt6765-common/proprietary/vendor/lib/vendor.mediatek.hardware.pq@2.4.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.pq@2.4.so \
     vendor/teracube/mt6765-common/proprietary/vendor/lib/vendor.mediatek.hardware.pq@2.5.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.pq@2.5.so \
     vendor/teracube/mt6765-common/proprietary/vendor/lib/vendor.mediatek.hardware.pq@2.6.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.pq@2.6.so \
+    vendor/teracube/mt6765-common/proprietary/vendor/lib/vendor.mediatek.hardware.pq@2.7.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.pq@2.7.so \
+    vendor/teracube/mt6765-common/proprietary/vendor/lib/vendor.mediatek.hardware.pq@2.8.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.pq@2.8.so \
+    vendor/teracube/mt6765-common/proprietary/vendor/lib/vendor.mediatek.hardware.pq@2.9.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.pq@2.9.so \
     vendor/teracube/mt6765-common/proprietary/vendor/lib/vendor.mediatek.hardware.videotelephony@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.videotelephony@1.0.so \
     vendor/teracube/mt6765-common/proprietary/vendor/lib64/android.hardware.power-service-mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.power-service-mediatek.so \
     vendor/teracube/mt6765-common/proprietary/vendor/lib64/egl/libEGL_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/libEGL_mtk.so \
@@ -857,7 +863,7 @@ PRODUCT_COPY_FILES += \
     vendor/teracube/mt6765-common/proprietary/vendor/lib64/hw/gralloc.rogue.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/gralloc.rogue.so \
     vendor/teracube/mt6765-common/proprietary/vendor/lib64/hw/hwcomposer.mt6765.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/hwcomposer.mt6765.so \
     vendor/teracube/mt6765-common/proprietary/vendor/lib64/hw/lights.mt6765.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/lights.mt6765.so \
-    vendor/teracube/mt6765-common/proprietary/vendor/lib64/hw/memtrack.mt6765.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/memtrack.mt6765.so \
+    vendor/teracube/mt6765-common/proprietary/vendor/lib64/hw/memtrack.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/memtrack.default.so \
     vendor/teracube/mt6765-common/proprietary/vendor/lib64/hw/power.mt6765.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/power.mt6765.so \
     vendor/teracube/mt6765-common/proprietary/vendor/lib64/hw/sensors.mt6765.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/sensors.mt6765.so \
     vendor/teracube/mt6765-common/proprietary/vendor/lib64/hw/thermal.mt6765.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/thermal.mt6765.so \
@@ -868,7 +874,7 @@ PRODUCT_COPY_FILES += \
     vendor/teracube/mt6765-common/proprietary/vendor/lib64/hw/vendor.mediatek.hardware.mtkcodecservice@1.1-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.mediatek.hardware.mtkcodecservice@1.1-impl.so \
     vendor/teracube/mt6765-common/proprietary/vendor/lib64/hw/vendor.mediatek.hardware.mtkpower@1.1-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.mediatek.hardware.mtkpower@1.1-impl.so \
     vendor/teracube/mt6765-common/proprietary/vendor/lib64/hw/vendor.mediatek.hardware.nvram@1.1-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.mediatek.hardware.nvram@1.1-impl.so \
-    vendor/teracube/mt6765-common/proprietary/vendor/lib64/hw/vendor.mediatek.hardware.pq@2.6-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.mediatek.hardware.pq@2.6-impl.so \
+    vendor/teracube/mt6765-common/proprietary/vendor/lib64/hw/vendor.mediatek.hardware.pq@2.14-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.mediatek.hardware.pq@2.14-impl.so \
     vendor/teracube/mt6765-common/proprietary/vendor/lib64/hw/vendor.mediatek.hardware.videotelephony@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.mediatek.hardware.videotelephony@1.0-impl.so \
     vendor/teracube/mt6765-common/proprietary/vendor/lib64/hw/vulkan.mt6765.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vulkan.mt6765.so \
     vendor/teracube/mt6765-common/proprietary/vendor/lib64/lbs_hidl_service-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lbs_hidl_service-impl.so \
@@ -1180,11 +1186,19 @@ PRODUCT_COPY_FILES += \
     vendor/teracube/mt6765-common/proprietary/vendor/lib64/vendor.mediatek.hardware.power@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.power@2.0.so \
     vendor/teracube/mt6765-common/proprietary/vendor/lib64/vendor.mediatek.hardware.pq@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.pq@2.0.so \
     vendor/teracube/mt6765-common/proprietary/vendor/lib64/vendor.mediatek.hardware.pq@2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.pq@2.1.so \
+    vendor/teracube/mt6765-common/proprietary/vendor/lib64/vendor.mediatek.hardware.pq@2.10.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.pq@2.10.so \
+    vendor/teracube/mt6765-common/proprietary/vendor/lib64/vendor.mediatek.hardware.pq@2.11.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.pq@2.11.so \
+    vendor/teracube/mt6765-common/proprietary/vendor/lib64/vendor.mediatek.hardware.pq@2.12.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.pq@2.12.so \
+    vendor/teracube/mt6765-common/proprietary/vendor/lib64/vendor.mediatek.hardware.pq@2.13.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.pq@2.13.so \
+    vendor/teracube/mt6765-common/proprietary/vendor/lib64/vendor.mediatek.hardware.pq@2.14.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.pq@2.14.so \
     vendor/teracube/mt6765-common/proprietary/vendor/lib64/vendor.mediatek.hardware.pq@2.2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.pq@2.2.so \
     vendor/teracube/mt6765-common/proprietary/vendor/lib64/vendor.mediatek.hardware.pq@2.3.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.pq@2.3.so \
     vendor/teracube/mt6765-common/proprietary/vendor/lib64/vendor.mediatek.hardware.pq@2.4.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.pq@2.4.so \
     vendor/teracube/mt6765-common/proprietary/vendor/lib64/vendor.mediatek.hardware.pq@2.5.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.pq@2.5.so \
     vendor/teracube/mt6765-common/proprietary/vendor/lib64/vendor.mediatek.hardware.pq@2.6.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.pq@2.6.so \
+    vendor/teracube/mt6765-common/proprietary/vendor/lib64/vendor.mediatek.hardware.pq@2.7.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.pq@2.7.so \
+    vendor/teracube/mt6765-common/proprietary/vendor/lib64/vendor.mediatek.hardware.pq@2.8.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.pq@2.8.so \
+    vendor/teracube/mt6765-common/proprietary/vendor/lib64/vendor.mediatek.hardware.pq@2.9.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.pq@2.9.so \
     vendor/teracube/mt6765-common/proprietary/vendor/lib64/vendor.mediatek.hardware.videotelephony@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.videotelephony@1.0.so \
     vendor/teracube/mt6765-common/proprietary/vendor/lib64/vendor.mediatek.hardware.wifi.supplicant@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.wifi.supplicant@2.0.so \
     vendor/teracube/mt6765-common/proprietary/vendor/lib64/vendor.mediatek.hardware.wifi.supplicant@2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.wifi.supplicant@2.1.so \
